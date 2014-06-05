@@ -1,0 +1,72 @@
+
+<html>
+
+	<head>
+
+		<title></title>
+		<style>
+		table {width:300px;}
+		td {width:125px;}
+		</style>
+
+	</head>
+
+	<body>
+
+	<p>Please enter your information below:</p>
+
+	<form id="formid" action="http://www.abc.com/contactform/process" method="POST">
+
+	<table>
+	<tr> <!-- table row -->
+	<td><label for="ifirstname">First Name:</label></td> <td><input type="text" id="ifirstname" name="first_name"/></td>
+	<!--the label tag gives bettes accessibility, we can now click on the text First Name and the writing space will activate. The label has to coincide with the id.-->
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="iemailaddress">E-mail Address:</label></td> <td><input type="text" id="iemailaddress" name="email_adress"/></td>
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="ipassword">Secret Key:</label></td> <td><input type="password" id="ipassword" name="secretkey"/></td>
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="isex_female">Female:</label></td> <td><input type="radio" id="isex_female" name="sex" value="female"/></td>
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="isex_male">Male:</label></td> <td><input type="radio" id="isex_male" name="sex" value="male"/></td>
+	<!--if you have the same name in two radio buttons, you can only choose one option.-->
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="idept">Dept:</label></td> <td><input type="radio" id="idept" name="dept" value="accounting"/></td>
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="ilanguage_english">English:</label></td> <td><input type="checkbox" id="ilanguage_english" name="language" value="English"/></td>
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="ilanguage_french">French:</label></td> <td><input type="checkbox" id="ilanguage_french" name="language" value="French"/></td>
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="ilanguage_spanish">Spanish:</label></td> <td><input type="checkbox" id="ilanguage_spanish" name="language" value="Spanish"/></td>
+	</tr>
+
+	<tr> <!-- table row -->
+	<td><label for="icomments">Comments:</label></td> <td><textarea id="icomments" cols="15" rows="5"></textarea></td>
+	</tr>
+
+
+	<tr> <!-- table row -->
+	<td>Submit: <input type="submit" value="submit"/></td>
+	</tr>
+
+	</form>
+
+	</body>
+
+</html>

@@ -1,0 +1,43 @@
+
+
+label { 
+			float:left;
+			width:125px;
+			text-align:right;
+			padding-right:10px;
+			margin-top:10px;
+			clear:left;
+			}
+
+		input, textarea { 
+			margin-top:10px;
+
+			}
+
+		input[type=submit] { 
+			border: 2px solid #0085d1;
+			font-size:14px;
+			font-weight:bold;
+			background-color:#00436a;
+			color:#fff;
+			text-shadow:#000 0 2px;
+			border-radius:5px;
+			}
+
+		input[type=submit]:hover { 
+			background-color:#0068a5;
+			}
+
+		#submitbutton { 
+			margin-left:125px;
+			padding:10px;
+			}
+
+		#container { 
+			width:500px;
+		}
+
+		form { 
+			background-color:#ccc;
+			width:60%;
+		}

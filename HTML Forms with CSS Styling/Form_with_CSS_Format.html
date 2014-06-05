@@ -1,0 +1,52 @@
+
+
+<!--in this document all of the table elements have been removed. It is formatted with CSS
+1. First we have surrounded each element with a div tag.
+2. Inside the style tag, we must configure our label (left side) and input (right side)
+-->
+	<html>
+	<head>
+		<title></title>
+		<!--it is not mandatory to define the style but it is better -->
+		 <link rel="stylesheet" href="stylesheet.css"/>
+
+	</head>
+
+	<body>
+
+	<div id="container">
+
+	<p>Please enter your information below:</p>
+
+	<form id="formid" action="http://www.abc.com/contactform/process" method="POST">
+
+	<div>
+	<label for="ifirstname">First Name:</label><input type="text" id="ifirstname" name="first_name"/>
+	</div>
+	
+	<div>
+	<label for="iemailaddress">E-mail Address:</label><input type="text" id="iemailaddress" name="email_adress"/>
+	</div>
+
+	<div>
+	<label for="isex_female">Female:</label><input type="radio" id="isex_female" name="sex" value="female"/>
+	</div>
+
+	<div>
+	<label for="ilanguage_english">English:</label><input type="checkbox" id="ilanguage_english" name="language" value="English"/>
+	</div>
+
+	<div>
+	<label for="icomments">Comments:</label><textarea id="icomments" cols="15" rows="5"></textarea>
+	</div>
+
+	<div id="submitbutton">
+	<input type="submit" value="submit"/>
+	</div>
+
+	</form>
+	</div>
+
+	</body>
+
+</html>
